@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#img {
+  width: 60%;
+  height: 695px;
+  background-image: url(../Main_page/img/retrever.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 60% 0%;
+}
+
+#sign_shawdow {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.6);
+}
+
+#sign_body {
+  display: flex;
+}
+
+#sign_box_body {
+  width: 40%;
+  height: 695px;
+  background-image: linear-gradient(120deg, #FFE500, #FFB800);
+}
+
+#sign_Logo {
+  width: 170px;
+  margin: auto;
+  display: flex;
+  margin-top: 80px;
+}
+
+.sign_input {
+  width: 350px;
+  height: 50px;
+  background-color: white;
+  border-radius: 300px;
+  display: flex;
+  margin: auto;
+  box-shadow: 0px 5px 10px rgba(77, 77, 77, 0.4);
+  margin-top: 30px;
+}
+
+.sign_input>input {
+  border: none;
+  outline: none;
+  font-size: 17px;
+  margin-left: 10px;
+}
+
+.sign_input>p {
+  font-size: 25px;
+  margin-top: 4px;
+  margin-left: 5px;
+  color: #D9D9D9;
+}
+
+.sign_backarrow {
+  color: white;
+  font-size: 40px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.sign_icon {
+  font-size: 25px;
+  margin-left: 20px;
+  margin-top: 12px;
+}
+
+#sign_container {
+  text-align: center;
+}
+
+#sign_h1 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 170px;
+}
+
+#sign_p {
+  color: white;
+  text-align: center;
+  font-size: 27px;
+}
+
+.sign_submit {
+  width: 300px;
+  height: 45px;
+  margin-top: 60px;
+  border-radius: 300px;
+  background-color: #FFF493;
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  box-shadow: 0px 5px 10px rgba(77, 77, 77, 0.4);
+}
+
+.sign_signup_text {
+  padding-top: 50px;
+  color: #464646;
+}
+
+#sign_go_signuppage {
+  color: #464646;
+}
+
+#sign_go_signuppage>p {
+  margin-top: 30px;
+  font-size: 17px;
+}
